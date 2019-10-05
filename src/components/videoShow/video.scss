@@ -1,0 +1,53 @@
+.video-wrap{
+  position: relative;
+  .video-bg-img{
+    background-attachment: fixed;
+    padding: 30px 15px 50px;
+    &.video-bg-img-a{
+      background-image: url(/wp-content/uploads/2019/10/ie-specialized-manufacturing-machinery-factory.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .video-inner-wrap{
+      position: relative;
+      background-color: #fff;
+    }
+    .video-text{
+      position: relative;
+      text-align: center;
+      color: #fff;
+      .video-text-detail{
+        margin: 35px;
+      }
+      .btn-wrap{
+        .btn{
+          margin-right: 10px;
+          @media screen and (max-width: 767px) {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+  .video-bg-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #0c0c0c;
+    opacity: 0.81;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+  .video-inner-wrap{
+    width: 60%;
+    margin: 0 auto;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+
