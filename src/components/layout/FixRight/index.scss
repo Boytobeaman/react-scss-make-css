@@ -1,0 +1,15 @@
+.parent-content-wrap{
+    overflow: hidden;
+    .left-content{
+        overflow: hidden;
+        .list-content{
+            min-height: 150px;
+            background-color: #abc;
+        }
+    }
+    .right-content{
+        background-color: brown;
+        float: right;
+        width: 300px;
+    }
+}

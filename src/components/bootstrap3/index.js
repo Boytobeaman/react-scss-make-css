@@ -3,6 +3,7 @@ import Header from '../bootstrap3header/index';
 import Bs3button from '../bs3button/index';
 import VideoShow from '../videoShow/index';
 import TextShow from '../textShow/index';
+import Layout from '../layout/layout';
 import '../../scss/joinstyle.scss';
 class Bootstrap3 extends React.Component {
   componentWillMount() {
@@ -38,11 +39,20 @@ class Bootstrap3 extends React.Component {
           </div>
         </div>
         <div>
-          <VideoShow/>
+          {/* <VideoShow/> */}
         </div>
         <div>
-          <TextShow/>
+          {/* <TextShow/> */}
         </div>
+
+
+
+        <div className="layout-wrap">
+          <div>
+            <Layout />
+          </div>
+        </div>
+        
       </div>
     )
   }
