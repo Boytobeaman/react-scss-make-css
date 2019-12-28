@@ -69,6 +69,11 @@ a {
         display: none;
     }
 }
+#main-navigation{
+    .navbar-nav > li > a {
+        text-transform: capitalize;
+    }
+}
 .woocommerce{
     .product{
         // product detail page
@@ -108,6 +113,11 @@ a {
     #site-header{
         a {
             font-size: 26px;
+            &.custom-logo-link{
+                &:hover,&:focus{
+                    background-color: initial;
+                }
+            }
         }
     } 
 }
